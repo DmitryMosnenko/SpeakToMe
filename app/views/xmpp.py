@@ -4,7 +4,6 @@ from flask import Blueprint
 from flask import request
 
 from app import app, db
-from app.models import ActiveUsers
 
 
 mod = Blueprint('xmpp', __name__, url_prefix='/xmpp')
